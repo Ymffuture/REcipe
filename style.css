@@ -111,7 +111,7 @@ nav {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media  (max-width: 928px) {
     .toggle-btn {
         display: block;
     }
@@ -136,6 +136,7 @@ nav {
     #toggle-menu:checked ~ nav .nav-links {
         display: block;
     }
+
 }
 .video-container {
   position: relative;
@@ -155,12 +156,12 @@ h4{
     z-index: 1;
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(images/WhatsApp\ Image\ 2024-03-19\ at\ 08.59.56_63faf93e.jpg);
-    height: 100px;
-    width: 500px;
-    font-size: 40px;
+    background:red;
+    height: 4px;
+    width: 150px;
+    font-size: 30px;
     border-radius: 0px 40px 40px 0px;
-    color: #ff6200;
+    color: #f67f29;
 }
 video{
     border-radius: 40px;
