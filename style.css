@@ -136,6 +136,11 @@ nav {
     #toggle-menu:checked ~ nav .nav-links {
         display: block;
     }
+    .pic{
+        width: 75px;
+        padding: 30px/2;
+        height: 100px/2;
+    }
 
 }
 .video-container {
@@ -225,6 +230,22 @@ button:hover{
     color: #333;
     background: #04a7ff97;
     transition: background .4s ease-in;
+}
+.pics{
+    display: block;
+    gap: 8px;
+  
+}
+.pic{
+    border-radius: 8px;
+    box-shadow: 2px 6px 8px #333;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 150px;
+    padding: 30px;
+    height: 100px;
 }
 
 
